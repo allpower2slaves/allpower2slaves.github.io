@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://allpower2slaves.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'allpower2slaves` webpage'
 theme = 'jugo'
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
