@@ -1,7 +1,7 @@
 +++
 date = '2025-02-08'
 draft = false
-title = 'Ansible Tech -- Configuring GNOME Shell'
+title = 'Ansible Tech - Configuring GNOME Shell'
 +++
 
 # Intro
@@ -405,4 +405,4 @@ Ansible reporting "changed" after a few subsequent playbook executions.
 # Suggested links {#suggested-links}
 + [https://wiki.gnome.org/Projects/dconf](https://wiki.gnome.org/Projects/dconf)
 + [RHEL 8 Docs](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#monitoring_key_changes)
-+ [my old gnome dconf config]()
++ [my old gnome dconf config](https://github.com/allpower2slaves/dotfiles/blob/master/gnome-setup.dconf)
