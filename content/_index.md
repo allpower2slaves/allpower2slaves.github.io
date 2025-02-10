@@ -21,7 +21,7 @@ All information on this website is provided as is, if you break something while 
 ## My Stuff
 
 - {{< navigation-item img="pix/github-mark.svg" primary-text="Github" secondary-text="My Github page" link="https://github.com/allpower2slaves" >}}
-- {{< navigation-item img="pix/fedora-old.svg"  primary-text="Fedora Copr" secondary-text="My Fedora packages" link="copr.fedoraproject.org" >}}
+- {{< navigation-item img="pix/fedora-old.svg"  primary-text="Fedora Copr" secondary-text="My Fedora packages" link="https://copr.fedorainfracloud.org/coprs/allpower2slaves/" >}}
 
 ---
 
