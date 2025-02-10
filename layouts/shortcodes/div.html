@@ -1,0 +1,7 @@
+<!--
+	class: class of the div
+-->
+
+<div {{with .Get "class" }}class="{{.}}"{{ end -}} >
+	{{ .Inner | .Page.RenderString }}
+</div>

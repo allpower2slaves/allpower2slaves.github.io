@@ -1,0 +1,16 @@
+<!--
+	class: class of the item 
+	link: url the navigation item directs to
+	img: image of the item 
+	primary-text: goes first
+	secondary-text: goes second
+	link-text: the url part in the end
+-->
+{{ with .Get "link"}}<a href="{{.}}">{{ end -}}
+	<span class="navigation-item {{ with .Get " class" }}{{.}}{{ end -}}">
+		{{ with .Get "img"}}<img src="{{.}}" />{{ end -}}
+		{{- with .Get "primary-text"}} <span class="primary-text">{{- . -}}</span> {{ end -}}
+		{{- with .Get "secondary-text" }}<span class="secondary-text">{{- . -}}</span>{{ end -}}
+		{{- with .Get "link-text"}}<span class="link-text">{{- . -}}</span>{{ end -}}
+	</span>
+{{- if .Get "link"}}</a>{{ end -}}

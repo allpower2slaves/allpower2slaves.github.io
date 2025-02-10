@@ -1,0 +1,119 @@
+body {
+  background-color: #F9FBE7;
+  font-family: serif;
+  color: #004D40;
+}
+
+body a {
+  text-decoration: none;
+  color: #0097A7;
+}
+
+h3 {
+  color: #1B5E20;
+}
+
+h2 {
+  color: #388E3C;
+}
+
+h1 {
+  color: #8BC34A;
+  font-size: 30pt;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+.home-links-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.home-links-layout figure {
+  margin: 0;
+  height: 50px;
+}
+
+.home-links-layout * {
+  height: 50px;
+  padding: 0;
+}
+
+.navigation-item > img {
+  height: 1rem;
+}
+
+.navigation-item > .primary-text {
+  color: #00ACC1;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.navigation-item {
+}
+
+.navigation-item > .secondary-text {
+  color: gray;
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.navigation-item > .link-text {
+  color: #90CAF9;
+  font-size: 1.4rem;
+}
+
+.navigation-item:hover {
+  /*outline: 1px solid yellow; */
+  background: #DCE775
+}
+
+footer img {
+  height: 1rem;
+  margin-right: 0.5rem;
+  transform: translateY(15%);
+}
+
+/* monospace in markdown renders as <code> */
+code {
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #F0F4C3;
+  color: #004D40;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  outline: .1rem solid #8BC34A;
+  padding: 0 .2rem;
+  margin: 0 .2rem;
+}
+
+pre > code {
+  padding: 1rem;
+}
+pre:has(code) {
+  display: flex;
+  justify-content: center;
+}

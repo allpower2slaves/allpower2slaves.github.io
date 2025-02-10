@@ -1,0 +1,10 @@
+{{ $pages := .CurrentSection.Pages.ByWeight }}
+
+<div id="nextprev">
+{{- with $pages.Prev . -}}
+<a href="{{ .RelPermalink}}"><div id="prevart">Previous:<br>{{.Title}}</div></a>
+{{ end -}}
+{{- with $pages.Next . -}}
+<a href="{{ .RelPermalink}}"><div id="nextart">Next:<br>{{.Title}}</div></a>
+{{ end -}}
+</div>
